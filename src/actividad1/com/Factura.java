@@ -1,12 +1,14 @@
 package actividad1.com;
 
+import java.util.Date;
+
 public class Factura {
-private String fechaemision;
+private Date fechaemision;
 private String P_pago;
-public String getFechaemision() {
+public Date getFechaemision() {
 	return fechaemision;
 }
-public void setFechaemision(String fechaemision) {
+public void setFechaemision(Date fechaemision) {
 	this.fechaemision = fechaemision;
 }
 public String getP_pago() {
